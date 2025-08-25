@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 15 23 42;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: rgb(var(--fg));
+  background: linear-gradient(to bottom, #f8fafc, #ffffff, #f1f5f9);
+}
+textarea, select, input, button {
+  outline: none;
+}
